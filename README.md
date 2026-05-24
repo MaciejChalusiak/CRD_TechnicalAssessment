@@ -1,5 +1,17 @@
 # CRD_TechnicalAssessment
 
+# Setup
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+# Run tests
+```
+pytest tests.py
+```
+
 
 # Assumptions:
 1. App not verify if amount from sold shares is enough to cover shares to buy.
